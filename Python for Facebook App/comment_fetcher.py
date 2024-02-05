@@ -1,0 +1,6 @@
+import facebook as fb
+access_token="EAAJjUO4p83IBO3uwtotZC07iyfpKoiG9mjj453Fg3FN9SpvATZCfqxGpPSSKNsZAf1BKizF7NMGDSo2AIm3ZB2hn1OSIJrPgiaZBO5jEj0DmZBHdBDezi2T4l4ugguMiOGZAg8KMQ1d2KnfmvtebiZCpXcL9eQM2z2WSx5ctHQ0YADhcjphwZAV5V6kbk3q9Ctw9GNTp4YNqrpNG1LVkaQBR731aqy03Y9KAcy6rcVPoZD"
+obj=fb.GraphAPI(access_token)
+response=obj.get_object('102046439274468_253418310809602/comments')
+print(response)
+
